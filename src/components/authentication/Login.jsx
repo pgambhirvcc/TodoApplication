@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
-import { PrimaryButton } from '../buttons/PrimaryButton';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { PrimaryButton } from "../buttons/PrimaryButton";
 
 export const Login = () => {
-    const [loginData, setLoginData] = useState();
+  const [loginData, setLoginData] = useState();
 
   const navigate = useNavigate();
 
@@ -17,7 +17,6 @@ export const Login = () => {
       <form className="flex flex-col gap-4 justify-center items-center h-screen">
         <h1 className="text-xl font-bold">Login Form</h1>
         <div className="border p-4 rounded-2xl border-gray-400">
-
           <div className="flex flex-col gap-1">
             <label htmlFor="">Email</label>
             <input
@@ -51,4 +50,4 @@ export const Login = () => {
       </form>
     </div>
   );
-}
+};
