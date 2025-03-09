@@ -10,7 +10,7 @@ export const CreateTodo = (props) => {
   };
 
   return (
-    <div className="h-screen bg-gray-300">
+    <div>
       <form className="flex flex-col gap-4 justify-center items-center h-screen">
         <h1 className="text-xl font-bold">Create your task list</h1>
         <div className="border p-4 rounded-2xl border-gray-400">
