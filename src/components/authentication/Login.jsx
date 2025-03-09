@@ -10,6 +10,7 @@ export const Login = () => {
   const handleLogin = () => {
     console.log(loginData);
     navigate("/");
+    localStorage.setItem("isAuthenticated", JSON.stringify(true));
   };
 
   return (
