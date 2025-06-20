@@ -10,12 +10,12 @@ function App() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const isUserAuthenticated = JSON.parse(localStorage.getItem("isAuthenticated"));
-    if (!isUserAuthenticated) {
-      navigate("/login");
-    }
-  }, []);
+  // useEffect(() => {
+  //   const isUserAuthenticated = JSON.parse(localStorage.getItem("isAuthenticated"));
+  //   if (!isUserAuthenticated) {
+  //     navigate("/login");
+  //   }
+  // }, []);
   
   return (
    <Routes>

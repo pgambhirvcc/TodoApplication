@@ -1,0 +1,20 @@
+name: Deployment Pipeline
+
+env:
+  VERCEL_ORG_ID: 
+  VERCEL_PROJECT_ID:
+
+on:
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  setup:
+    name: Setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/@checkout@v2
+      - name: Install Dependencies
+        run: npm install
