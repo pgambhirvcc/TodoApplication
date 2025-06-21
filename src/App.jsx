@@ -7,7 +7,6 @@ import { HomePage } from "./pages/HomePage";
 import { useEffect } from "react";
 
 function App() {
-
   const navigate = useNavigate();
 
   // useEffect(() => {
@@ -16,14 +15,14 @@ function App() {
   //     navigate("/login");
   //   }
   // }, []);
-  
+
   return (
-   <Routes>
+    <Routes>
       <Route path="/dummy" element={<DummyPage />} />
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/" element={<HomePage />} />
-   </Routes>
+    </Routes>
   );
 }
 
