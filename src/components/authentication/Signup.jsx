@@ -13,7 +13,7 @@ export const Signup = () => {
   };
 
   return (
-    <div className="h-screen bg-gray-300">
+    <div className="h-screen bg-green-300">
       <form className="flex flex-col gap-4 justify-center items-center h-screen">
         <h1 className="text-xl font-bold">Signup Form</h1>
         <div className="border p-4 rounded-2xl border-gray-400">
