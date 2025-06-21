@@ -14,7 +14,7 @@ export const Login = () => {
   };
 
   return (
-    <div className="h-screen bg-gray-300">
+    <div className="h-screen bg-red-400">
       <form className="flex flex-col gap-4 justify-center items-center h-screen">
         <h1 className="text-xl font-bold">Login Form</h1>
         <div className="border p-4 rounded-2xl border-gray-400">
